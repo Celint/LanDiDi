@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailShipperActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/demand"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="需求单" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="货物描述"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_describe"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="发货地点"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_start_city"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="收货地点"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_destination"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="截至日期"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_deadline"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="收货人姓名"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_receiver"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="收货人电话"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_receiver_phone"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="货物总重量"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_thing_weight"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="出价"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_price"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="接单司机"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_driver"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:text="司机电话"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/shipper_demand_drive_phone"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/table_text_view"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/shipper_demand_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:text="支付"/>
+
+        <ImageView
+            android:id="@+id/shipper_demand_already_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/already_pay"/>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

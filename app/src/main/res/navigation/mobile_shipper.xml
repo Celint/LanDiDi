@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_shipper"
+    app:startDestination="@+id/shipper_home">
+
+    <fragment
+        android:id="@+id/shipper_home"
+        android:name="com.example.landidi.shipper.ShipperHomeFragment"
+        tools:layout="@layout/fragment_shipper_home" />
+
+    <fragment
+        android:id="@+id/shipper_message"
+        android:name="com.example.landidi.shipper.ShipperMessageFragment"
+        tools:layout="@layout/fragment_shipper_message" />
+
+    <fragment
+        android:id="@+id/shipper_info"
+        android:name="com.example.landidi.shipper.ShipperInfoFragment"
+        tools:layout="@layout/fragment_shipper_info" />
+
+</navigation>
